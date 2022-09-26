@@ -1,5 +1,5 @@
 import React from 'react'
-import Claim from '../components/claim'
+import Claim from '../components/Claim'
 
 function claim() {
   return (
