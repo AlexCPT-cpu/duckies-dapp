@@ -130,6 +130,7 @@ export const ConnectWalletProvider = ({ children }) => {
       setClaiming(true)
       await tx.wait(1)
       setClaiming(false)
+      pendingRewards()
     }
 
     const pendingRewards = async () => {
